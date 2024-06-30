@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #87CEEB, #FFFFFF);
+  overflow: hidden;
+  /* background-color: #f0f0f0; */
+  /* background-image: url("background.png"); */
+  /* background-image: linear-gradient(green,rgb(221, 216, 216)); */
+}
+
+canvas {
+  margin-top: 2rem;
+  background-color: yellow;
+  object-fit: fill;
+  border: 2px solid slategrey;
+  background-image: url("nature1.png");
+}
+
+#scoreContainer {
+  font-size: 18px;
+  margin-top: 10px;
+}
